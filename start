@@ -1,0 +1,7 @@
+#!/bin/bash
+/etc/init.d/unifi start
+while true
+do
+    /etc/init.d/unifi status
+    sleep 60
+done
