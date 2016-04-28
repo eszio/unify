@@ -5,6 +5,6 @@ Ubiqiti UAP Controller
 docker run -d --privileged --name uap --net=host eszz/unifi
 
 # Login to Unify Controller
-http://<host-ip>:8080
+http://host-ip:8080
 or 
-https://<host-ip>:8443
+https://host-ip:8443
