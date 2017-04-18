@@ -2,7 +2,7 @@
 Ubiqiti UAP Controller
 
 # Use this repo
-docker run -d --privileged --name uap --net=host eszz/unifi
+docker run -d --privileged --name uap --net=host eszz/unify
 
 # Login to Unify Controller
 http://host-ip:8080
